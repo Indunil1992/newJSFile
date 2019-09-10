@@ -1,0 +1,97 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "2b8b7004-5de5-47e1-a015-f05cce8f2e59": {
+        "id": "2b8b7004-5de5-47e1-a015-f05cce8f2e59",
+        "parent": null,
+        "name": "newJSFile",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "7f7e8c01-2b67-4512-9299-786486384b17",
+          "2ada6e0f-dfec-47ab-9e77-1a6783665ae1"
+        ],
+        "isRemovable": false,
+        "filePath": "newJSFile"
+      },
+      "7f7e8c01-2b67-4512-9299-786486384b17": {
+        "id": "7f7e8c01-2b67-4512-9299-786486384b17",
+        "parent": "2b8b7004-5de5-47e1-a015-f05cce8f2e59",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newJSFile/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "2ada6e0f-dfec-47ab-9e77-1a6783665ae1": {
+        "id": "2ada6e0f-dfec-47ab-9e77-1a6783665ae1",
+        "parent": "2b8b7004-5de5-47e1-a015-f05cce8f2e59",
+        "name": "newfile.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newJSFile/newfile.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "2b8b7004-5de5-47e1-a015-f05cce8f2e59",
+    "openFiles": [
+      "7f7e8c01-2b67-4512-9299-786486384b17",
+      "2ada6e0f-dfec-47ab-9e77-1a6783665ae1"
+    ],
+    "currentFileId": "2ada6e0f-dfec-47ab-9e77-1a6783665ae1",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "newJSFile",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568114882146
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "newJSFile",
+      "url": "https://github.com/Indunil1992/newJSFile"
+    }
+  }
+}
